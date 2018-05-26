@@ -17,15 +17,6 @@ sidebarOpen.onclick = function () {
 		document.getElementById("overlay").parentNode.removeChild(this);
 	} 
 }
-/*sidenav accordion*/
-/*  var accordionOpen = document.getElementById("accordion-open");
-
- accordionOpen.onclick = function () {
-	var accordionDisp = document.getElementById("panel").style.display;
-    var accordionDisp = document.getElementById("panel").style.maxHeight;  
-	document.getElementById("panel").style.display = "block";
-	document.getElementById("panel").style.maxHeight = "px";
-	} */ 
 	var accordion = document.getElementsByClassName("accordion");
 	var i;
 
