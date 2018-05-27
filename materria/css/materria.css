@@ -409,6 +409,13 @@ template {
 	display: none;
 }
 
+/*CSS*/
+h1, h2, h3, h4, h5, h6, p, a{
+	font-family: 'Roboto', sans-serif;
+	display: block;
+	text-decoration: none;
+	color: #000;
+}
 
 /*JavaScript*/
 
