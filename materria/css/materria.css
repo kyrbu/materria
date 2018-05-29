@@ -483,6 +483,10 @@ div>a {
 	color: #fff;
 }
 
+ul.sidenav a:hover{
+	background-color: rgba(0, 0, 0, 0.10);
+}
+
 @media only screen and (min-width: 1100px) {
 	nav a.sidenav-trigger {
 		display: none;
@@ -526,8 +530,11 @@ div>a {
 }
 
 .panel1 {
-	padding: 0 18px;
 	max-height: 0;
 	overflow: hidden;
 	transition: max-height 0.2s ease-out;
+}
+
+.panel1 a{
+	padding: 0 40px;
 }
