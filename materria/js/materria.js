@@ -19,7 +19,7 @@ sidebarOpen.onclick = function () {
 }
 
 /*accordion*/
-var accordion = document.getElementsByClassName("accordion");
+var accordion = document.getElementsByClassName("collapsible");
 
 for (var i = 0; i < accordion.length; i++) {
 	accordion[i].addEventListener("click", function () {

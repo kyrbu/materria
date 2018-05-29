@@ -423,7 +423,7 @@ h1, h2, h3, h4, h5, h6, p, a{
 /* nav */
 nav {
 	color: rgb(0, 0, 0);
-	background-color: #311b92;
+	background-color: #880e4f;
 	width: 100%;
 	height: 56px;
 	line-height: 56px;
@@ -465,7 +465,7 @@ ul.sidenav {
 	width: 250px;
 	height: 100%;
 	transition: .3s;
-	background-color: #4527a0;
+	background-color: #ad1457;
 	list-style-type: none;
 	padding: 0;
 	margin: 0;
@@ -513,8 +513,8 @@ ul.sidenav a:hover{
 
 /* accordion */
 
-.accordion {
-	background-color: #4527a0;
+.collapsible {
+	background-color: #ad1457;
 	color: #fff;
 	cursor: pointer;
 	padding: 18px;
