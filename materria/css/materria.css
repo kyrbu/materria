@@ -459,10 +459,10 @@ ul.sidenav {
 	position: fixed;
 	z-index: 100;
 	top: 56px;
-	left: -250px;
+	left: -220px;
 	overflow-x: hidden;
 	overflow-y: auto;
-	width: 250px;
+	width: 220px;
 	height: 100%;
 	transition: .3s;
 	background-color: #ad1457;
