@@ -459,10 +459,10 @@ ul.sidenav {
 	position: fixed;
 	z-index: 100;
 	top: 56px;
-	left: -250px;
+	left: -220px;
 	overflow-x: hidden;
 	overflow-y: auto;
-	width: 250px;
+	width: 220px;
 	height: 100%;
 	transition: .3s;
 	background-color: #ad1457;
@@ -518,7 +518,6 @@ ul.sidenav a:hover{
 	color: #fff;
 	cursor: pointer;
 	padding: 18px;
-	width: 100%;
 	border: none;
 	text-align: left;
 	outline: none;
@@ -529,12 +528,12 @@ ul.sidenav a:hover{
 	background-color: rgba(0, 0, 0, 0.10);
 }
 
-.panel1 {
+.dropPanel{
 	max-height: 0;
 	overflow: hidden;
 	transition: max-height 0.2s ease-out;
 }
 
-.panel1 a{
+.dropPanel a{
 	padding: 0 40px;
 }

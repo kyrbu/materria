@@ -24,11 +24,11 @@ var accordion = document.getElementsByClassName("collapsible");
 for (var i = 0; i < accordion.length; i++) {
 	accordion[i].addEventListener("click", function () {
 		this.classList.toggle("active");
-		var panel1 = this.nextElementSibling;
-		if (panel1.style.maxHeight) {
-			panel1.style.maxHeight = null;
+		var dropPanel = this.nextElementSibling;
+		if (dropPanel.style.maxHeight) {
+			dropPanel.style.maxHeight = null;
 		} else {
-			panel1.style.maxHeight = panel1.scrollHeight + "px";
+			dropPanel.style.maxHeight = dropPanel.scrollHeight + "px";
 		}
 	});
 }
