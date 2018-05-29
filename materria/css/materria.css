@@ -518,7 +518,6 @@ ul.sidenav a:hover{
 	color: #fff;
 	cursor: pointer;
 	padding: 18px;
-	width: 100%;
 	border: none;
 	text-align: left;
 	outline: none;
@@ -529,12 +528,12 @@ ul.sidenav a:hover{
 	background-color: rgba(0, 0, 0, 0.10);
 }
 
-.panel1 {
+.dropPanel{
 	max-height: 0;
 	overflow: hidden;
 	transition: max-height 0.2s ease-out;
 }
 
-.panel1 a{
+.dropPanel a{
 	padding: 0 40px;
 }
